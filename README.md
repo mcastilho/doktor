@@ -56,7 +56,7 @@ doktor is meant to be a very simple malware scanner for OSX written in Go. Curre
 If the path exists, this is labeled as a malware hit. This is not meant to be sophisticated tool, I just wanted something I could run from the command line and install using brew.
 
 ## Credit
-As with all things in technology, I owe the credit to the efforts of people who have come before me. I'd like to give credit to these fine folks for inspiring me to create this. I've also incorporated the pubic signatures you've collected into doktor, so thank you for taking the time to do so.
+As with all things in technology, I owe credit to the efforts of the people who have come before me. I'd like to give credit to these fine folks for inspiring me to create this. I've also incorporated the pubic signatures you've collected into doktor, so thank you for taking the time to do so.
 
 * Whoever made https://etrecheck.com/ and
 * Thomas Reed formerly of Adware Medic now MBAM : http://www.adwaremedic.com/signatures.xml
