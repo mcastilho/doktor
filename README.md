@@ -6,6 +6,8 @@ doktor is an extremely efficient and simple CLI malware scanner written in Golan
 
 If you have a correction or want to add a signature that I don't have, I would be very appreciative if you could do so through a PR.
 
+doktor likely has bugs and can't catch everything. If you find something on your machine, I recommend following up with MalwareBytes AntiMalware for Mac.
+
 ## Installation 
 ```
 > brew tap adamenger/doktor
