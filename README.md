@@ -41,7 +41,7 @@ You'll need to run the build script and redirect the output to a `*.go` file. On
 
 ```
 $> ./build.sh > signatureData.go
-%> go build
+$> go build
 ```
 
 
