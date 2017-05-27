@@ -62,7 +62,7 @@ func performScan() []Result {
 			iocPath := strings.Replace(line, "%%", currentUser.Username, -1)
 
 			// test to see if this is a wildcard expression and expand it if needed
-			isWildcard, _ := regexp.Match("%$", []byte(iocPath))
+			isWildcard, _ := regexp.Match("%\\.|%$", []byte(iocPath))
 
 			// if it is a wildcard, do the wild card things
 			if isWildcard == true {
