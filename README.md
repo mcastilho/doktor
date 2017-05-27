@@ -1,6 +1,10 @@
 # doktor
 
-take two and call me in the morning (⌐■_■)
+take two and call me in the morning (⌐■_■).
+
+doktor is an extremely efficient and simple CLI malware scanner written in Golang. I have collected malware/adware/badware/shitware/crapware/tearwear/bearwear signatures from the internet for your convenience in `signatures.yaml`. 
+
+If you have a correction or want to add a signature that I don't have, I would be very appreciative if you could do so through a PR.
 
 ## Installation 
 ```
@@ -50,3 +54,9 @@ $> go build
 doktor is meant to be a very simple malware scanner for OSX written in Go. Currently the scanner is very simple, it will read the paths from the signature file and check if they exist.
 
 If the path exists, this is labeled as a malware hit. This is not meant to be sophisticated tool, I just wanted something I could run from the command line and install using brew.
+
+## Credit
+As with all things in technology, I owe the credit to the efforts of people who have come before me. I'd like to give credit to these fine folks for inspiring me to create this. I've also incorporated the pubic signatures you've collected into doktor, so thank you for taking the time to do so.
+
+* Whoever made https://etrecheck.com/ and
+* Thomas Reed formerly of Adware Medic now MBAM : http://www.adwaremedic.com/signatures.xml
