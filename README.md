@@ -60,3 +60,4 @@ As with all things in technology, I owe credit to the efforts of the people who 
 
 * Whoever made https://etrecheck.com/ and
 * Thomas Reed formerly of Adware Medic now MBAM : http://www.adwaremedic.com/signatures.xml
+* https://otx.alienvault.com
