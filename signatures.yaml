@@ -1,0 +1,822 @@
+# UW's :: Unwanted Programs
+# TLDR: Programs that have been identified to be useless and take user information
+uw_advanced_mac_cleaner:
+  - '/Users/%%/Library/Advanced Mac Cleaner'
+  - '/Users/%%/Library/hipramc'
+  - '/Users/%%/Library/Application Support/Advanced Mac Cleaner'
+  - '/Users/%%/Library/Application Support/amc'
+  - '/Users/%%/Library/LaunchAgents/com.pcv.hipramc.plist'
+  - '/Users/%%/Library/Preferences/com.PCvark.Advanced-Mac-Cleaner.plist'
+  - '/Users/%%/Library/Preferences/com.pcv.hipramc.plist'
+  - '/Users/%%/Library/Logs/Advanced Mac Cleaner.log'
+  - '/Users/%%/Library/Logs/helperamc.log'
+
+uw_adware_browser_cleaner_pro:
+  - '/Applications/Adware Browser Cleaner Pro.app'
+
+uw_adware_expert_scan_and_remove:
+  - '/Applications/Adware Expert Scan and Remove.app'
+
+uw_adware_scanner_and_remover:
+  - '/Applications/Adware Scanner & Remover.app'
+
+uw_adware_sweeper:
+  - '/Applications/Adware Sweeper.app'
+
+uw_adware_scanner_and_remover:
+  - '/Applications/Adware Scanner and Remover by BitShield.app'
+
+uw_adware_webmedic_pro:
+  - '/Applications/Adware WebMedic Pro.app'
+
+uw_antikeylogger_doctor:
+  - '/Applications/AntiKeylogger Doctor.app'
+
+uw_antiransomware_doctor:
+  - '/Applications/AntiRansomware Doctor.app'
+
+uw_antivirus_spartan_pro:
+  - '/Applications/Antivirus Spartan Pro.app'
+
+uw_macbooster_3:
+  - '/Applications/MacBooster 3.app'
+
+uw_TuneupMyMac:
+  - '/Applications/TuneupMyMac.app'
+
+# Adware
+# Known adware from etrecheck and organically collected from other sources
+adware_fkcodec:
+  - /Users/%%/Library/Application Support/Codec-M
+  - /Users/%%/Library/LaunchAgents/com.codecm.uploader.plist
+  - /Applications/Codec-M.app
+adware_yontoo:
+  - /Users/%%/Library/Application Support/Google/Chrome/External Extensions/ccfjbdjailljfihgkoccfbiljjapiijb.json
+  - /Users/%%/Library/Application Support/Google/Chrome/YontooLayers.crx
+adware_chatzum:
+  - /Applications/ChatZumUninstaller.pkg
+  - /Library/Application Support/SIMBL/Plugins/SafariOmnibar.bundle
+  - /Library/Internet Plug-Ins/uid.plist
+  - /Library/Internet Plug-Ins/zako.plugin
+adware_savekeep:
+  - /Applications/Savekeep.app
+adware_conduit:
+  - /Library/InputManagers/CTLoader/
+  - /Library/LaunchAgents/com.conduit.loader.agent.plist
+  - /Library/LaunchDaemons/com.perion.searchprotectd.plist
+  - /Library/Application Support/SIMBL/Plugins/CT2285220.bundle
+  - /Applications/SearchProtect.app
+  - /Applications/SearchProtect/
+  - /Users/%%/Trovi
+  - /Users/%%/Conduit
+  - /Library/Application Support/Conduit/
+  - /Users/%%/Library/Application Support/Conduit
+  - /Users/%%/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin
+  - /Users/%%/Library/Internet Plug-Ins/TroviNPAPIPlugin.plugin
+  - /Users/%%/Library/LaunchAgents/com.conduit.loader.agent.plist
+  - /Users/%%/Library/Preferences/com.conduit.loader.agent.plist
+adware_best_youtube_downloader:
+  - /Library/LaunchAgents/com.moeppfdpoohhdcaefbfpmabjipnohiif.updater.plist
+adware_premier_opinion:
+  - /Applications/PremierOpinion
+  - /Library/LaunchAgents/PremierOpinionAgent.plist
+  - /Library/LaunchDaemons/PremierOpinion.plist
+  - /Users/%%/Library/LaunchAgents/PremierOpinion.plist
+  - /Users/%%/Library/Preferences/PremierOpinion.plist
+adware_ask_toolbar:
+  - /Users/%%/Library/Application Support/Sponsors.framework
+adware_CustomSearch:
+  - /Users/%%/Applications/SilentInstaller.app
+adware_OperatorMac:
+  - /Users/%%/Library/Application Support/mediahm/
+  - /Users/%%/Library/LaunchDaemons/com.mediahm.operator.update.plist
+adware_ListenToYouTube:
+  - /Library/Application Support/ListenToYoutube
+adware_JustCloud:
+  - '/Library/LaunchAgents/com.jdibackup.JustCloud%'
+  - '/Users/%%/Library/LaunchAgents/com.jdibackup.JustCloud%'
+  - '/Users/%%/Library/Preferences/com.jdibackup.JustCloud%'
+adware_MyPCBackup:
+  - '/Users/%%/Library/LaunchAgents/com.jdibackup.MyPCBackup%'
+  - '/Users/%%/Library/Preferences/com.jdibackup.MyPCBackup%'
+  - '/Library/LaunchAgents/com.jdibackup.MyPCBackup%'
+adware_OnlineBackup:
+  - '/Users/%%/Library/LaunchAgents/com.jdibackup.OnlineBackup%'
+  - '/Users/%%/Library/Preferences/com.jdibackup.OnlineBackup%'
+  - '/Library/LaunchAgents/com.jdibackup.OnlineBackup%'
+adware_YesBackup:
+  - '/Users/%%/Library/LaunchAgents/com.jdibackup.YesBackup%'
+  - '/Users/%%/Library/Preferences/com.jdibackup.YesBackup%'
+  - '/Library/LaunchAgents/com.jdibackup.YesBackup%'
+adware_ZipCloud:
+  - '/Users/%%/Library/LaunchAgents/com.jdibackup.ZipCloud%'
+  - '/Users/%%/Library/Preferences/com.jdibackup.ZipCloud%'
+  - '/Library/LaunchAgents/com.jdibackup.ZipCloud%'
+adware_pronto:
+  - '/Users/%%/Library/LaunchAgents/pronto%'
+  - '/Users/%%/Library/Preferences/pronto%'
+  - '/Users/%%/Library/LaunchAgents/pdfpronto%'
+  - '/Users/%%/Library/Preferences/pdfpronto%'
+  - '/Library/LaunchAgents/pdfpronto%'
+  - '/Library/LaunchAgents/pronto%'
+adware_MediaDownloader:
+  - '/Applications/mediaDownloader.app'
+  - '/System/Library/Frameworks/MediaDownloader%.framework'
+  - '/Library/PrivilegedHelperTools/Jack'
+  - '/Library/InputManagers/CTLoader/'
+  - '/Library/Application Support/MediaDownloader/'
+  - '/Users/%%/Library/Caches/com.MediaDownloader.bulk.installer'
+  - '/Users/%%/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin'
+  - '/Users/%%/Library/Internet Plug-Ins/MediaDownloader%'
+adware_vsearch:
+  - '/Library/Application Support/VSearch%'
+  - /Library/LaunchAgents/com.vsearch.agent.plist
+  - /Library/LaunchDaemons/com.vsearch.daemon.plist
+  - /Library/LaunchDaemons/com.vsearch.helper.plist
+  - /Library/LaunchDaemons/Jack.plist
+  - '/Library/PrivilegedHelperTools/Jack%'
+  - '/System/Library/Frameworks/Vsearch%'
+adware_mega_backup:
+  - '/Users/%%/Library/Preferences/com.megabackup.MegaBackup.plist'
+  - '/Users/%%/Library/Preferences/com.megabackup.MegaBackupAgent.plist'
+adware_spigot:
+  - '/Users/%%/Library/Application Support/Spigot'
+  - '/Users/%%/Library/LaunchAgents/com.spigot%'
+  - '/Users/%%/Library/Preferences/com.spigot%'
+  - '/Library/LaunchAgents/com.spigot%'
+adware_vidx_macvx:
+  - '/Users/%%/Library/Safari/Extensions/extension.safariextz'
+adware_crossrider:
+  - '/Users/%%/Library/Safari/Extensions/GoPhoto%'
+  - '/Users/%%/Library/LaunchAgents/com.WebShoppers.agent.plist'
+  - '/Library/LaunchAgents/com.WebShoppers.agent.plist'
+  - '/Applications/WebShoppers/'
+  - '/Applications/SoftwareUpdater/'
+  - '/Library/LaunchAgents/com.SoftwareUpdater.agent.plist'
+  - '/Users/%%/Library/LaunchAgents/com.SoftwareUpdater.agent.plist'
+
+# Malware
+# Known malware signatures collected from various sources
+malware_osx_Backdoor_Adwind:
+  - '/Users/%%/LaunchAgents/org.yrGfjOQJztZ.plist'
+  - '/Users/%%/.UQnxIJkKPii/UQnxIJkKPii'
+
+malware_osx_Backdoor_Eleanor:
+  - '/Applications/EasyDoc Converter.app'
+  - '/Users/%%/Library/LaunchAgents/com.getdropbox.dropbox.integritycheck.plist'
+  - '/Users/%%/Library/LaunchAgents/com.getdropbox.dropbox.timegrabber.plist'
+  - '/Users/%%/Library/LaunchAgents/com.getdropbox.dropbox.usercontent.plist'
+  - '/Users/%%/Library/.dropbox/'
+
+malware_osx_Backdoor_Keydnap:
+  - '/Users/%%/Library/Application Support/com.apple.iCloud.sync.daemon/icloudsyncd'
+  - '/Users/%%/Library/Application Support/com.geticloud/icloudproc'
+  - '/Users/%%/Library/LaunchAgents/com.apple.iCloud.sync.daemon.plist'
+  - '/Users/%%/Library/LaunchAgents/com.geticloud.icloud.photo.plist'
+
+malware_osx_Backdoor_Quimitchin_Fruitfly:
+  - '/Users/%%/.client'
+  - '/Users/%%/Library/LaunchAgents/com.client.client.plist'
+
+malware_osx_ChromePatch:
+  - '/Users/%%/Library/Application Support/CModUtility/'
+  - '/Users/%%/Library/Application Support/CModUtility/cmodutility'
+  - '/Users/%%/Library/LaunchAgents/com.noextend.cmodutility.plist'
+
+malware_osx_CoinThief:
+  - '/Users/%%/Library/LaunchAgents/com.google.softwareUpdateAgent.plist'
+  - '/Users/%%/Library/Application Support/.com.google.softwareUpdateAgent'
+
+malware_osx_EvilOSX:
+  - '/Users/%%/Library/Containers/online.geniusapps-Firewall'
+  - '/Users/%%/Library/LaunchAgents/com.apple.EvilOSX.plist'
+  - '/Users/%%/Library/LaunchDaemons/com.apple.EvilOSX.plist'
+  - '/Users/%%/Library/Containers/.EvilOSX/'
+  - '/Library/Containers/.EvilOSX/'
+
+malware_osx_FakeAV:
+  - '/Users/%%/Library/Application Support/ByteSecurity'
+  - '/Users/%%/Library/Cookies/st-Byte-Security.ByteSecurity.binarycookies'
+
+malware_osx_FakeFileOpener:
+  - '/Users/user/Desktop/Mac File Opener.app'
+  - '/Users/%%/Library/Preferences/com.pcvark.Mac-File-Opener.plist'
+
+malware_osx_FlexiSpy:
+  - '/Users/%%/Library/LaunchAgents/com.applle.%'
+  - '/Users/%%/Library/LaunchDaemons/com.applle.%'
+  - '/Users/%%/Library/PrivilegedHelperTools/.blbla'
+  - '/System/Library/LaunchDaemons/com.applle.%'
+
+malware_osx_IceFog:
+  - '/Users/%%/Library/LaunchAgents/apple.launchd.plist'
+
+malware_osx_Janicab:
+  - '/Users/%%/.t'
+  - '/Users/%%/.t/%.pyc'
+  - '/Users/%%/.t/%.ini'
+
+malware_osx_Minesteal:
+  - '/Users/%%/Library/LaunchAgents/SysJar.plist'
+  - '/Users/%%/Library/LaunchAgents/minesender.jar.plist'
+  - '/Users/%%/Library/LaunchAgents/SecCorrect.jar.plist'
+
+malware_osx_OceanLotus:
+  - '/Users/%%/Library/LaunchAgents/com.google.plugins.plist'
+  - '/Users/%%/Library/Logs/.Logs/corevideosd'
+  - '/Library/Logs/.Logs/corevideosd'
+  - '/Library/Logs/.Logs'
+
+malware_osx_keranger:
+  - '/Users/%%/Library/.kernel_%'
+  - '/Users/%%/Library/kernel_service'
+  - '/Users/%%/Library/.kernel_time'
+  - '/Users/%%/Library/.kernel_pid'
+  - '/Users/%%/Library/.kernel_complete'
+
+malware_osx_Ventir:
+  - '/Library/LaunchDaemons/com.updated.launchagent.plist'
+  - '/Users/%%/Library/LaunchDaemons/com.updated.launchagent.plist'
+  - '/Library/.local/'
+  - '/Users/%%/Library/.local'
+
+malware_osx_WireLurker:
+  - /Library/LaunchDaemons/com.apple.machook_damon.plist
+  - /Users/Shared/run.sh
+  - /Library/LaunchDaemons/com.apple.machook_damon.plist
+  - /Library/LaunchDaemons/com.apple.globalupdate.plist
+  - /usr/bin/globalupdate
+  - /usr/local/machook/
+  - /usr/bin/WatchProc
+  - /usr/bin/itunesupdate
+  - /Library/LaunchDaemons/com.apple.watchproc.plist
+  - /Library/LaunchDaemons/com.apple.itunesupdate.plist
+  - /System/Library/LaunchDaemons/com.apple.appstore.plughelper.plist
+  - /System/Library/LaunchDaemons/com.apple.MailServiceAgentHelper.plist
+  - /System/Library/LaunchDaemons/com.apple.systemkeychain-helper.plist
+  - /System/Library/LaunchDaemons/com.apple.periodic-dd-mm-yy.plist
+  - /usr/bin/com.apple.MailServiceAgentHelper
+  - /usr/bin/com.apple.appstore.PluginHelper
+  - /usr/bin/periodicdate
+  - /usr/bin/systemkeychain-helper
+  - /usr/bin/stty5.11.pl
+  - /etc/manpath.d/
+  - /usr/local/ipcc/
+
+malware_osx_XSLCmd:
+  - '/Library/Logs/clipboardd'
+  - '/Users/%%/Library/LaunchAgents/clipboardd'
+  - '/Users/%%/Library/LaunchAgents/com.apple.service.clipboardd.plist'
+
+malware_osx_XcodeGhost:
+  - '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework'
+  - '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework'
+  - '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework'
+
+malware_Leverage_A2:
+  - /Users/Shared/UserEvent.app
+
+malware_iWorm_1:
+  - '/Library/Application Support/JavaW%'
+
+malware_HackingTeam_Mac_RAT1:
+  - /dev/ptmx0
+
+malware_HackingTeam_Mac_Persistence:
+  - '/Users/%%/Library/Preferences/8pHbqThW%'
+
+malware_inqtana_variant_abc:
+  - '/Users/InqTanaHandler/%'
+  - '/Users/InqTanaTest/%'
+  - '/Users/libavetanaBT%'
+  - '/Users/%%pwned%'
+  - '/Users/w0rm%'
+  - /Users/javax
+  - /Users/com.openbundle.plist
+  - /Users/de
+  - /Users/applec0re.tgz
+
+malware_dok_bella:
+  - '/Library/Containers/.bella/Bella'
+  - '/Library/Containers/.bella/bella.db'
+  - '/usr/local/bin/SafariProxy'
+  - '/Users/%%/Downloads/Dok.zip'
+  - '/Users/Shared/AppStore.app'
+  - '/Users/%%/Downloads/Dok/Dokument/Contents'
+  - '/Users/%%/Library/Containers/.bella/Bella'
+  - '/Users/%%/Library/Containers/.bella/bella.db'
+  - '/Users/%%/Library/LaunchAgents/com.apple.iTunes.plist'
+  - '/Users/%%/Library/LaunchAgents/com.apple.Safari.pac.plist'
+  - '/Users/%%/Library/LaunchAgents/com.apple.Safari.proxy.plist'
+
+malware_genieo:
+  - '/Users/%%/Library/Safari/Extensions/Wharkike%'
+  - '/Users/%%/Library/%%/Wharkike%'
+  - '/Users/%%/Library/%%/Smokyashan%'
+  - '/Applications/Wharkike'
+  - '/Users/%%/Library/Application Support/%%/searchplugins/my-homepage.xml'
+  - '/Users/%%/Library/LaunchAgents/com.genieo.completer%'
+  - '/Users/%%/Library/LaunchAgents/com.installer.completer%'
+  - '/Users/%%/Library/LaunchAgents/texiday%'
+  - '/Library/LaunchAgents/com.genieo%'
+  - /Library/LaunchDaemons/com.genieoinnovation.macextension.client.plist
+  - /Applications/Genieo.app
+  - /Applications/InKeepr.app
+  - /Applications/InstallGenieo.app
+  - /Applications/Reset Search.app
+  - /Applications/Uninstall Genieo.app
+  - /Applications/Uninstall IM Completer.app
+  - /Applications/InstallMac
+  - /Applications/InstallGenieo
+  - /Applications/Texiday
+  - /Applications/Listchack
+  - /Applications/InKeepr
+  - /Applications/Celipsow
+  - /Applications/Nariabox
+  - /Applications/Oliverto
+  - /Applications/Epolife
+  - /Applications/Leperdvil
+  - /Applications/Myppes
+  - /Applications/Otwexplain
+  - /Applications/Quitelex
+  - /Applications/Kuklorest
+  - /Applications/Totiteck
+  - /Applications/Javeview
+  - /Applications/Qamails
+  - /Applications/Olivernetko
+  - /Applications/Portsayd
+  - /Applications/mainorne
+  - /Applications/montageobox
+  - /Applications/JakeCares
+  - /Users/%%/Library/Application Support/com.genieoinnovation.Installer
+  - /Users/%%/Library/Application Support/Genieo
+  - /Users/%%/Library/Application Support/IM.Installer
+  - /Users/%%/Library/Application Support/Listchack
+  - /Users/%%/Library/Application Support/InKeepr
+  - /Users/%%/Library/Application Support/Asistents
+  - /Users/%%/Library/Application Support/Celipsow
+  - /Users/%%/Library/Application Support/Nariabox
+  - /Users/%%/Library/Application Support/Oliverto
+  - /Users/%%/Library/Application Support/Epolife
+  - /Users/%%/Library/Application Support/Leperdvil
+  - /Users/%%/Library/Application Support/Myppes
+  - /Users/%%/Library/Application Support/Otwexplain
+  - /Users/%%/Library/Application Support/Quitelex
+  - /Users/%%/Library/Application Support/Kuklorest
+  - /Users/%%/Library/Application Support/Totiteck
+  - /Users/%%/Library/Application Support/Javeview
+  - /Users/%%/Library/Application Support/Qamails
+  - /Users/%%/Library/Application Support/Olivernetko
+  - /Users/%%/Library/Application Support/Portsayd
+  - /Users/%%/Library/Application Support/mainorne
+  - /Users/%%/Library/Application Support/montageobox
+  - /Users/%%/Library/Application Support/JakeCares
+  - /Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client
+  - /Library/Frameworks/GenieoExtra.framework
+  - /private/etc/launchd.conf
+  - /usr/lib/libgenkit.dylib
+  - /usr/lib/libgenkitsa.dylib
+  - /usr/lib/libimckit.dylib
+  - /usr/lib/libimckitsa.dylib
+
+malware_osx_boonana_a:
+  - /Library/StartupItems/OSXDriverUpdates/OSXDriverUpdates
+  - /Library/StartupItems/OSXDriverUpdates/StartupParameters.plist
+
+malware_OSX_Komplex:
+  - /Users/Shared/.local/kext
+  - /Users/Shared/com.apple.updates.plist
+  - /Users/Shared/start.sh
+
+malware_osx_rootkit_0_2_1:
+  - '/Library/StartupItems/opener%'
+  - '/System/Library/StartupItems/opener%'
+  - '/dev/.rk'
+  - '/Users/LDAP-daemon'
+  - '/tmp/.work'
+
+malware_proton_b:
+  - '/Users/%%/Library/LaunchAgents/fr.handbrake.activity_agent.plist' 
+  - '/Users/%%/Library/RenderFiles/activity_agent.app'
+
+malware_togroot:
+  - /System/Library/Extensions/Togroot.kext
+
+malware_weapon_x:
+  - /System/Library/Extensions/WeaponX.kext
+ 
+# These were pulled from EtreCheck and automated! If they're bad rules, just yank them out.
+# https://github.com/etresoft/EtreCheck/blob/master/database/adware.db
+
+etrecheck_adware_EJKQobosSE1lKM:
+  - /Users/%%/Library/LaunchAgents/EJKQobosSE1lKM.plist
+  - /Users/%%/Library/Preferences/EJKQobosSE1lKM.plist
+  - /Library/LaunchAgents/EJKQobosSE1lKM.plist
+etrecheck_adware_FypbVky:
+  - /Users/%%/Library/LaunchAgents/FypbVky.plist
+  - /Users/%%/Library/Preferences/FypbVky.plist
+  - /Library/LaunchAgents/FypbVky.plist
+etrecheck_adware_Jack:
+  - /Users/%%/Library/LaunchAgents/Jack.plist
+  - /Users/%%/Library/Preferences/Jack.plist
+  - /Library/LaunchAgents/Jack.plist
+  - /Library/LaunchDaemons/Jack.plist
+etrecheck_adware_QEsg5glWvaf:
+  - /Users/%%/Library/LaunchAgents/QEsg5glWvaf.plist
+  - /Users/%%/Library/Preferences/QEsg5glWvaf.plist
+  - /Library/LaunchAgents/QEsg5glWvaf.plist
+etrecheck_adware_SngyBb9iL:
+  - /Users/%%/Library/LaunchAgents/SngyBb9iL.plist
+  - /Users/%%/Library/Preferences/SngyBb9iL.plist
+  - /Library/LaunchAgents/SngyBb9iL.plist
+etrecheck_adware_cinema:
+  - '/Users/%%/Library/LaunchAgents/cinema%'
+  - '/Users/%%/Library/Preferences/cinema%'
+  - '/Library/LaunchAgents/cinema%'
+etrecheck_adware_com_318f1a93714a6464.agent:
+  - /Users/%%/Library/LaunchAgents/com.318f1a93714a6464.agent.plist
+  - /Users/%%/Library/Preferences/com.318f1a93714a6464.agent.plist
+  - /Library/LaunchAgents/com.318f1a93714a6464.agent.plist
+etrecheck_adware_com_easy_shopper_agent:
+  - /Users/%%/Library/LaunchAgents/com.Easy-Shopper.agent.plist
+  - /Users/%%/Library/Preferences/com.Easy-Shopper.agent.plist
+  - /Library/LaunchAgents/com.Easy-Shopper.agent.plist
+  - /Users/%%/Library/LaunchAgents/com.EasyShopper.agent.plist
+  - /Users/%%/Library/Preferences/com.EasyShopper.agent.plist
+  - /Library/LaunchAgents/com.EasyShopper.agent.plist
+etrecheck_adware_com_hot_shoppy_agent:
+  - /Users/%%/Library/LaunchAgents/com.HotShoppy.agent.plist
+  - /Users/%%/Library/Preferences/com.HotShoppy.agent.plist
+  - /Library/LaunchAgents/com.HotShoppy.agent.plist
+etrecheck_adware_live_shoppers_agent:
+  - /Users/%%/Library/LaunchAgents/com.LiveShoppers.agent.plist
+  - /Users/%%/Library/Preferences/com.LiveShoppers.agent.plist
+  - /Library/LaunchAgents/com.LiveShoppers.agent.plist
+etrecheck_adware_com_MTWB_Product:
+  - /Users/%%/Library/LaunchAgents/com.MTWB.Product.plist
+  - /Users/%%/Library/Preferences/com.MTWB.Product.plist
+  - /Library/LaunchAgents/com.MTWB.Product.plist
+etrecheck_adware_com_MacUpdater_agent:
+  - /Users/%%/Library/LaunchAgents/com.MacUpdater.agent.plist
+  - /Users/%%/Library/Preferences/com.MacUpdater.agent.plist
+  - /Library/LaunchAgents/com.MacUpdater.agent.plist
+etrecheck_adware_com_MyShopMate_agent:
+  - /Users/%%/Library/LaunchAgents/com.MyShopMate.agent.plist
+  - /Users/%%/Library/Preferences/com.MyShopMate.agent.plist
+  - /Library/LaunchAgents/com.MyShopMate.agent.plist
+etrecheck_adware_com_MySoftUpdate_agent:
+  - /Users/%%/Library/LaunchAgents/com.MySoftUpdate.agent.plist
+  - /Users/%%/Library/Preferences/com.MySoftUpdate.agent.plist
+  - /Library/LaunchAgents/com.MySoftUpdate.agent.plist
+etrecheck_adware_com_MyUpdater_agent:
+  - /Users/%%/Library/LaunchAgents/com.MyUpdater.agent.plist
+  - /Users/%%/Library/Preferences/com.MyUpdater.agent.plist
+  - /Library/LaunchAgents/com.MyUpdater.agent.plist
+etrecheck_adware_com_ShopTool_agent:
+  - /Users/%%/Library/LaunchAgents/com.ShopTool.agent.plist
+  - /Users/%%/Library/Preferences/com.ShopTool.agent.plist
+  - /Library/LaunchAgents/com.ShopTool.agent.plist
+etrecheck_adware_com_ShoppyTool_agent:
+  - /Users/%%/Library/LaunchAgents/com.ShoppyTool.agent.plist
+  - /Users/%%/Library/Preferences/com.ShoppyTool.agent.plist
+  - /Library/LaunchAgents/com.ShoppyTool.agent.plist
+etrecheck_adware_com_Smart_Shoppy_agent:
+  - /Users/%%/Library/LaunchAgents/com.Smart-Shoppy.agent.plist
+  - /Users/%%/Library/Preferences/com.Smart-Shoppy.agent.plist
+  - /Library/LaunchAgents/com.Smart-Shoppy.agent.plist
+etrecheck_adware_com_SmartShoppy_agent:
+  - /Users/%%/Library/LaunchAgents/com.SmartShoppy.agent.plist
+  - /Users/%%/Library/Preferences/com.SmartShoppy.agent.plist
+  - /Library/LaunchAgents/com.SmartShoppy.agent.plist
+etrecheck_adware_com_Software_Updater_agent:
+  - /Users/%%/Library/LaunchAgents/com.Software-Updater.agent.plist
+  - /Users/%%/Library/Preferences/com.Software-Updater.agent.plist
+  - /Library/LaunchAgents/com.Software-Updater.agent.plist
+  - /Users/%%/Library/LaunchAgents/com.SoftwareUpdater.agent.plist
+  - /Users/%%/Library/Preferences/com.SoftwareUpdater.agent.plist
+  - /Library/LaunchAgents/com.SoftwareUpdater.agent.plist
+etrecheck_adware_com_SurfBuyer_agent:
+  - /Users/%%/Library/LaunchAgents/com.SurfBuyer.agent.plist
+  - /Users/%%/Library/Preferences/com.SurfBuyer.agent.plist
+  - /Library/LaunchAgents/com.SurfBuyer.agent.plist
+etrecheck_adware_com_SurfMate_agent:
+  - /Users/%%/Library/LaunchAgents/com.SurfMate.agent.plist
+  - /Users/%%/Library/Preferences/com.SurfMate.agent.plist
+  - /Library/LaunchAgents/com.SurfMate.agent.plist
+etrecheck_adware_com_Udfjheds:
+  - /Users/%%/Library/LaunchAgents/com.Udfjheds.plist
+  - /Users/%%/Library/Preferences/com.Udfjheds.plist
+  - /Library/LaunchAgents/com.Udfjheds.plist
+etrecheck_adware_com_WebShopper_oiuqw343sQ9a_helpd:
+  - /Users/%%/Library/LaunchAgents/com.WebShopper.oiuqw343sQ9a.helpd.plist
+  - /Users/%%/Library/Preferences/com.WebShopper.oiuqw343sQ9a.helpd.plist
+  - /Library/LaunchAgents/com.WebShopper.oiuqw343sQ9a.helpd.plist
+etrecheck_adware_com_WebShopper_oiuqw343sQ9a:
+  - /Users/%%/Library/LaunchAgents/com.WebShopper.oiuqw343sQ9a.plist
+  - /Users/%%/Library/Preferences/com.WebShopper.oiuqw343sQ9a.plist
+  - /Library/LaunchAgents/com.WebShopper.oiuqw343sQ9a.plist
+etrecheck_adware_com_WebShoppy_agent:
+  - /Users/%%/Library/LaunchAgents/com.WebShoppy.agent.plist
+  - /Users/%%/Library/Preferences/com.WebShoppy.agent.plist
+  - /Library/LaunchAgents/com.WebShoppy.agent.plist
+etrecheck_adware_com_WebTools_oiuqw343sQ9a_helpd:
+  - /Users/%%/Library/LaunchAgents/com.WebTools.oiuqw343sQ9a.helpd.plist
+  - /Users/%%/Library/Preferences/com.WebTools.oiuqw343sQ9a.helpd.plist
+  - /Library/LaunchAgents/com.WebTools.oiuqw343sQ9a.helpd.plist
+etrecheck_adware_com_WebTools_oiuqw343sQ9a:
+  - /Users/%%/Library/LaunchAgents/com.WebTools.oiuqw343sQ9a.plist
+  - /Users/%%/Library/Preferences/com.WebTools.oiuqw343sQ9a.plist
+  - /Library/LaunchAgents/com.WebTools.oiuqw343sQ9a.plist
+etrecheck_adware_com_adscleaner_hlpradc:
+  - /Users/%%/Library/LaunchAgents/com.adscleaner.hlpradc.plist
+  - /Users/%%/Library/Preferences/com.adscleaner.hlpradc.plist
+  - /Library/LaunchAgents/com.adscleaner.hlpradc.plist
+etrecheck_adware_com_appart_AppArt:
+  - /Users/%%/Library/LaunchAgents/com.appart.AppArt.plist
+  - /Users/%%/Library/Preferences/com.appart.AppArt.plist
+  - /Library/LaunchAgents/com.appart.AppArt.plist
+etrecheck_adware_com_applicationstats_AppStats:
+  - /Users/%%/Library/LaunchAgents/com.applicationstats.AppStats.plist
+  - /Users/%%/Library/Preferences/com.applicationstats.AppStats.plist
+  - /Library/LaunchAgents/com.applicationstats.AppStats.plist
+
+etrecheck_adware_com_cinema_plus_agent:
+  - /Users/%%/Library/LaunchAgents/com.cinema-plus-1-1.agent.plist
+  - /Users/%%/Library/Preferences/com.cinema-plus-1-1.agent.plist
+  - /Library/LaunchAgents/com.cinema-plus-1-1.agent.plist
+etrecheck_adware_com_cinemapro_agent:
+  - /Users/%%/Library/LaunchAgents/com.cinemapro1-2.agent.plist
+  - /Users/%%/Library/Preferences/com.cinemapro1-2.agent.plist
+  - /Library/LaunchAgents/com.cinemapro1-2.agent.plist
+etrecheck_adware_com_codecm_uploader:
+  - /Users/%%/Library/LaunchAgents/com.codecm.uploader.plist
+  - /Users/%%/Library/Preferences/com.codecm.uploader.plist
+  - /Library/LaunchAgents/com.codecm.uploader.plist
+etrecheck_adware_com_derangeable:
+  - /Users/%%/Library/LaunchAgents/com.derangeable.preferences.plist
+  - /Users/%%/Library/Preferences/com.derangeable.preferences.plist
+  - /Library/LaunchAgents/com.derangeable.preferences.plist
+etrecheck_adware_com_e777e3897002b122_daemon:
+  - /Users/%%/Library/LaunchAgents/com.e777e3897002b122.daemon.plist
+  - /Users/%%/Library/Preferences/com.e777e3897002b122.daemon.plist
+  - /Library/LaunchAgents/com.e777e3897002b122.daemon.plist
+etrecheck_adware_com_e777e3897002b122_helper:
+  - /Users/%%/Library/LaunchAgents/com.e777e3897002b122.helper.plist
+  - /Users/%%/Library/Preferences/com.e777e3897002b122.helper.plist
+  - /Library/LaunchAgents/com.e777e3897002b122.helper.plist
+etrecheck_adware_com_ebonmedia_appswell_helper:
+  - /Users/%%/Library/LaunchAgents/com.ebonmedia.appswell.helper.plist
+  - /Users/%%/Library/Preferences/com.ebonmedia.appswell.helper.plist
+  - /Library/LaunchAgents/com.ebonmedia.appswell.helper.plist
+etrecheck_adware_com_extensions_updater60094_agent:
+  - /Users/%%/Library/LaunchAgents/com.extensions.updater60094.agent.plist
+  - /Users/%%/Library/Preferences/com.extensions.updater60094.agent.plist
+  - /Library/LaunchAgents/com.extensions.updater60094.agent.plist
+etrecheck_adware_com_extensions_updater60094_ver:
+  - /Users/%%/Library/LaunchAgents/com.extensions.updater60094.ver
+  - /Users/%%/Library/Preferences/com.extensions.updater60094.ver
+  - /Library/LaunchAgents/com.extensions.updater60094.ver
+etrecheck_adware_com_extensions_updater67619_agent:
+  - /Users/%%/Library/LaunchAgents/com.extensions.updater67619.agent.plist
+  - /Users/%%/Library/Preferences/com.extensions.updater67619.agent.plist
+  - /Library/LaunchAgents/com.extensions.updater67619.agent.plist
+etrecheck_adware_com_extensions_updater67619_ver:
+  - /Users/%%/Library/LaunchAgents/com.extensions.updater67619.ver
+  - /Users/%%/Library/Preferences/com.extensions.updater67619.ver
+  - /Library/LaunchAgents/com.extensions.updater67619.ver
+etrecheck_adware_com_extensions_updater69337_agent:
+  - /Users/%%/Library/LaunchAgents/com.extensions.updater69337.agent.plist
+  - /Users/%%/Library/Preferences/com.extensions.updater69337.agent.plist
+  - /Library/LaunchAgents/com.extensions.updater69337.agent.plist
+etrecheck_adware_com_extensions_updater69337_ver:
+  - /Users/%%/Library/LaunchAgents/com.extensions.updater69337.ver
+  - /Users/%%/Library/Preferences/com.extensions.updater69337.ver
+  - /Library/LaunchAgents/com.extensions.updater69337.ver
+etrecheck_adware_com_flashmall_agent:
+  - /Users/%%/Library/LaunchAgents/com.flashmall.agent.plist
+  - /Users/%%/Library/Preferences/com.flashmall.agent.plist
+  - /Library/LaunchAgents/com.flashmall.agent.plist
+etrecheck_adware_com_goacemjobhmmbdlbbfjgifjcojdfnjfm_updater:
+  - /Users/%%/Library/LaunchAgents/com.goacemjobhmmbdlbbfjgifjcojdfnjfm.updater.plist
+  - /Users/%%/Library/Preferences/com.goacemjobhmmbdlbbfjgifjcojdfnjfm.updater.plist
+  - /Library/LaunchAgents/com.goacemjobhmmbdlbbfjgifjcojdfnjfm.updater.plist
+etrecheck_adware_com_iobit_AMCDaemon:
+  - /Users/%%/Library/LaunchAgents/com.iobit.AMCDaemon.plist
+  - /Users/%%/Library/Preferences/com.iobit.AMCDaemon.plist
+  - /Library/LaunchAgents/com.iobit.AMCDaemon.plist
+etrecheck_adware_luteofuscescent:
+  - /Users/%%/Library/LaunchAgents/com.luteofuscescent.preferences.plist
+  - /Users/%%/Library/Preferences/com.luteofuscescent.preferences.plist
+  - /Library/LaunchAgents/com.luteofuscescent.preferences.plist
+etrecheck_adware_com_macalive_agent:
+  - '/Users/%%/Library/LaunchAgents/com.macalive%'
+  - '/Users/%%/Library/Preferences/com.macalive%'
+  - '/Library/LaunchAgents/com.macalive%'
+etrecheck_adware_com_macmechanic_mmhlpr:
+  - /Users/%%/Library/LaunchAgents/com.macmechanic.mmhlpr.plist
+  - /Users/%%/Library/Preferences/com.macmechanic.mmhlpr.plist
+  - /Library/LaunchAgents/com.macmechanic.mmhlpr.plist
+etrecheck_adware_com_mediageer_agent_update:
+  - '/Users/%%/Library/LaunchAgents/com.mediageer%'
+  - '/Users/%%/Library/Preferences/com.mediageer%'
+  - '/Library/LaunchAgents/com.mediageer%'
+etrecheck_adware_com_mediahm_operator_update:
+  - /Users/%%/Library/LaunchAgents/com.mediahm.operator.update.plist
+  - /Users/%%/Library/Preferences/com.mediahm.operator.update.plist
+  - /Library/LaunchAgents/com.mediahm.operator.update.plist
+etrecheck_adware_com_mediateem_helper_update:
+  - /Users/%%/Library/LaunchAgents/com.mediateem.helper.update.plist
+  - /Users/%%/Library/Preferences/com.mediateem.helper.update.plist
+  - /Library/LaunchAgents/com.mediateem.helper.update.plist
+etrecheck_adware_com_mediateem_utils_update:
+  - /Users/%%/Library/LaunchAgents/com.mediateem.utils.update.plist
+  - /Users/%%/Library/Preferences/com.mediateem.utils.update.plist
+  - /Library/LaunchAgents/com.mediateem.utils.update.plist
+etrecheck_adware_com_mentmac_service_update:
+  - /Users/%%/Library/LaunchAgents/com.mentmac.service.update.plist
+  - /Users/%%/Library/Preferences/com.mentmac.service.update.plist
+  - /Library/LaunchAgents/com.mentmac.service.update.plist
+etrecheck_adware_com_misotheistic_agent:
+  - /Users/%%/Library/LaunchAgents/com.misotheistic.agent.plist
+  - /Users/%%/Library/Preferences/com.misotheistic.agent.plist
+  - /Library/LaunchAgents/com.misotheistic.agent.plist
+etrecheck_adware_com_moeppfdpoohhdcaefbfpmabjipnohiif_updater:
+  - /Users/%%/Library/LaunchAgents/com.moeppfdpoohhdcaefbfpmabjipnohiif.updater.plist
+  - /Users/%%/Library/Preferences/com.moeppfdpoohhdcaefbfpmabjipnohiif.updater.plist
+  - /Library/LaunchAgents/com.moeppfdpoohhdcaefbfpmabjipnohiif.updater.plist
+etrecheck_adware_com_mopt_hmopt:
+  - /Users/%%/Library/LaunchAgents/com.mopt.hmopt.plist
+  - /Users/%%/Library/Preferences/com.mopt.hmopt.plist
+  - /Library/LaunchAgents/com.mopt.hmopt.plist
+etrecheck_adware_com_notapple3:
+  - /Users/%%/Library/LaunchAgents/com.notapple3.plist
+  - /Users/%%/Library/Preferences/com.notapple3.plist
+  - /Library/LaunchAgents/com.notapple3.plist
+etrecheck_adware_com_onlineapplicationnotice_AppNotice:
+  - /Users/%%/Library/LaunchAgents/com.onlineapplicationnotice.AppNotice.plist
+  - /Users/%%/Library/Preferences/com.onlineapplicationnotice.AppNotice.plist
+  - /Library/LaunchAgents/com.onlineapplicationnotice.AppNotice.plist
+etrecheck_adware_com_onlineapplicationrequest_AppRequest:
+  - /Users/%%/Library/LaunchAgents/com.onlineapplicationrequest.AppRequest.plist
+  - /Users/%%/Library/Preferences/com.onlineapplicationrequest.AppRequest.plist
+  - /Library/LaunchAgents/com.onlineapplicationrequest.AppRequest.plist
+etrecheck_adware_com_onlineapplicationstatus_AppStatus:
+  - /Users/%%/Library/LaunchAgents/com.onlineapplicationstatus.AppStatus.plist
+  - /Users/%%/Library/Preferences/com.onlineapplicationstatus.AppStatus.plist
+  - /Library/LaunchAgents/com.onlineapplicationstatus.AppStatus.plist
+etrecheck_adware_com_pandermite_preferences:
+  - /Users/%%/Library/LaunchAgents/com.pandermite.preferences.plist
+  - /Users/%%/Library/Preferences/com.pandermite.preferences.plist
+  - /Library/LaunchAgents/com.pandermite.preferences.plist
+etrecheck_adware_com_pcv_hlpramc:
+  - /Users/%%/Library/LaunchAgents/com.pcv.hlpramc.plist
+  - /Users/%%/Library/Preferences/com.pcv.hlpramc.plist
+  - /Library/LaunchAgents/com.pcv.hlpramc.plist
+etrecheck_adware_com_pcv_hlpramcn:
+  - /Users/%%/Library/LaunchAgents/com.pcv.hlpramcn.plist
+  - /Users/%%/Library/Preferences/com.pcv.hlpramcn.plist
+  - /Library/LaunchAgents/com.pcv.hlpramcn.plist
+etrecheck_adware_com_perion_searchprotectd:
+  - /Users/%%/Library/LaunchAgents/com.perion.searchprotectd.plist
+  - /Users/%%/Library/Preferences/com.perion.searchprotectd.plist
+  - /Library/LaunchAgents/com.perion.searchprotectd.plist
+etrecheck_adware_com_player_agent_update:
+  - /Users/%%/Library/LaunchAgents/com.player.agent.update.plist
+  - /Users/%%/Library/Preferences/com.player.agent.update.plist
+  - /Library/LaunchAgents/com.player.agent.update.plist
+etrecheck_adware_com_player_execut:
+  - /Users/%%/Library/LaunchAgents/com.player.execut.update.plist
+  - /Users/%%/Library/Preferences/com.player.execut.update.plist
+  - /Library/LaunchAgents/com.player.execut.update.plist
+etrecheck_adware_com_player_navigate_update:
+  - /Users/%%/Library/LaunchAgents/com.player.navigate.update.plist
+  - /Users/%%/Library/Preferences/com.player.navigate.update.plist
+  - /Library/LaunchAgents/com.player.navigate.update.plist
+etrecheck_adware_com_products_execut_update:
+  - /Users/%%/Library/LaunchAgents/com.products.execut.update.plist
+  - /Users/%%/Library/Preferences/com.products.execut.update.plist
+  - /Library/LaunchAgents/com.products.execut.update.plist
+etrecheck_adware_com_reviversoft_MacReviver:
+  - /Users/%%/Library/LaunchAgents/com.reviversoft.MacReviver.FileSystemHelper.plist
+  - /Users/%%/Library/Preferences/com.reviversoft.MacReviver.FileSystemHelper.plist
+  - /Library/LaunchAgents/com.reviversoft.MacReviver.FileSystemHelper.plist
+  - /Users/%%/Library/LaunchAgents/com.reviversoft.macreviver.antithefthelper.plist
+  - /Users/%%/Library/Preferences/com.reviversoft.macreviver.antithefthelper.plist
+  - /Library/LaunchAgents/com.reviversoft.macreviver.antithefthelper.plist
+etrecheck_adware_com_sourcekp_helper:
+  - '/Users/%%/Library/LaunchAgents/com.sourcekp%'
+  - '/Users/%%/Library/Preferences/com.sourcekp%'
+  - '/Library/LaunchAgents/com.sourcekp%'
+etrecheck_adware_com_sourcesoftwarehub_AppTech:
+  - /Users/%%/Library/LaunchAgents/com.sourcesoftwarehub.AppTech.plist
+  - /Users/%%/Library/Preferences/com.sourcesoftwarehub.AppTech.plist
+  - /Library/LaunchAgents/com.sourcesoftwarehub.AppTech.plist
+etrecheck_adware_com_taurean_preferences:
+  - /Users/%%/Library/LaunchAgents/com.taurean.preferences.plist
+  - /Users/%%/Library/Preferences/com.taurean.preferences.plist
+  - /Library/LaunchAgents/com.taurean.preferences.plist
+etrecheck_adware_com_techy_mohlp:
+  - /Users/%%/Library/LaunchAgents/com.techy.mohlp.plist
+  - /Users/%%/Library/Preferences/com.techy.mohlp.plist
+  - /Library/LaunchAgents/com.techy.mohlp.plist
+etrecheck_adware_com_unionsoftwareonline_AppMonitor:
+  - /Users/%%/Library/LaunchAgents/com.unionsoftwareonline.AppMonitor.plist
+  - /Users/%%/Library/Preferences/com.unionsoftwareonline.AppMonitor.plist
+  - /Library/LaunchAgents/com.unionsoftwareonline.AppMonitor.plist
+etrecheck_adware_com_unnoble_preferences:
+  - /Users/%%/Library/LaunchAgents/com.unnoble.preferences.plist
+  - /Users/%%/Library/Preferences/com.unnoble.preferences.plist
+  - /Library/LaunchAgents/com.unnoble.preferences.plist
+etrecheck_adware_com_updater_mce:
+  - '/Users/%%/Library/LaunchAgents/com.updater%'
+  - '/Users/%%/Library/Preferences/com.updater%'
+  - '/Library/LaunchAgents/com.updater%'
+etrecheck_adware_com_userhelper_execut_update:
+  - /Users/%%/Library/LaunchAgents/com.userhelper.execut.update.plist
+  - /Users/%%/Library/Preferences/com.userhelper.execut.update.plist
+  - /Library/LaunchAgents/com.userhelper.execut.update.plist
+etrecheck_adware_com_veoh_webplayer_startup:
+  - /Users/%%/Library/LaunchAgents/com.veoh.webplayer.startup.plist
+  - /Users/%%/Library/Preferences/com.veoh.webplayer.startup.plist
+  - /Library/LaunchAgents/com.veoh.webplayer.startup.plist
+etrecheck_adware_com_viewmc_agent_update:
+  - /Users/%%/Library/LaunchAgents/com.viewmc.agent.update.plist
+  - /Users/%%/Library/Preferences/com.viewmc.agent.update.plist
+  - /Library/LaunchAgents/com.viewmc.agent.update.plist
+etrecheck_adware_com_webhelper:
+  - /Users/%%/Library/LaunchAgents/com.webhelper.plist
+  - /Users/%%/Library/Preferences/com.webhelper.plist
+  - /Library/LaunchAgents/com.webhelper.plist
+etrecheck_adware_com_webshoppers_agent:
+  - /Users/%%/Library/LaunchAgents/com.webshoppers.agent.plist
+  - /Users/%%/Library/Preferences/com.webshoppers.agent.plist
+  - /Library/LaunchAgents/com.webshoppers.agent.plist
+etrecheck_adware_com_webtools_uninstaller:
+  - /Users/%%/Library/LaunchAgents/com.webtools.uninstaller.plist
+  - /Users/%%/Library/Preferences/com.webtools.uninstaller.plist
+  - /Library/LaunchAgents/com.webtools.uninstaller.plist
+etrecheck_adware_com_webtools_update_agent:
+  - /Users/%%/Library/LaunchAgents/com.webtools.update.agent.plist
+  - /Users/%%/Library/Preferences/com.webtools.update.agent.plist
+  - /Library/LaunchAgents/com.webtools.update.agent.plist
+etrecheck_adware_com_youbit_agent_update:
+  - '/Users/%%/Library/LaunchAgents/com.youbit%'
+  - '/Users/%%/Library/Preferences/com.youbit%'
+  - '/Library/LaunchAgents/com.youbit%'
+etrecheck_adware_downloadspeedtester_notification:
+  - /Users/%%/Library/LaunchAgents/downloadspeedtester.notification.plist
+  - /Users/%%/Library/Preferences/downloadspeedtester.notification.plist
+  - /Library/LaunchAgents/downloadspeedtester.notification.plist
+etrecheck_adware_flashmall:
+  - '/Users/%%/Library/LaunchAgents/flashmall%'
+  - '/Users/%%/Library/Preferences/flashmall%'
+  - '/Library/LaunchAgents/flashmall%'
+etrecheck_adware_gUpdater:
+  - /Users/%%/Library/LaunchAgents/gUpdater.plist
+  - /Users/%%/Library/Preferences/gUpdater.plist
+  - /Library/LaunchAgents/gUpdater.plist
+etrecheck_adware_palmall:
+  - '/Users/%%/Library/LaunchAgents/palmall%'
+  - '/Users/%%/Library/Preferences/palmall%'
+  - '/Library/LaunchAgents/palmall%'
+etrecheck_adware_rXtY1BRVSMskF:
+  - /Users/%%/Library/LaunchAgents/rXtY1BRVSMskF.plist
+  - /Users/%%/Library/Preferences/rXtY1BRVSMskF.plist
+  - /Library/LaunchAgents/rXtY1BRVSMskF.plist
+etrecheck_adware_shopper_helper_pro_enabler:
+  - /Users/%%/Library/LaunchAgents/shopper-helper-pro_enabler.plist
+  - /Users/%%/Library/Preferences/shopper-helper-pro_enabler.plist
+  - /Library/LaunchAgents/shopper-helper-pro_enabler.plist
+etrecheck_adware_shopper_helper_pro_updater:
+  - /Users/%%/Library/LaunchAgents/shopper-helper-pro_updater.plist
+  - /Users/%%/Library/Preferences/shopper-helper-pro_updater.plist
+  - /Library/LaunchAgents/shopper-helper-pro_updater.plist
+etrecheck_adware_shopy_mate_ver:
+  - /Users/%%/Library/LaunchAgents/shopy-mate.ver
+  - /Users/%%/Library/Preferences/shopy-mate.ver
+  - /Library/LaunchAgents/shopy-mate.ver
+etrecheck_adware_shopy_mate_enabler:
+  - /Users/%%/Library/LaunchAgents/shopy-mate_enabler.plist
+  - /Users/%%/Library/Preferences/shopy-mate_enabler.plist
+  - /Library/LaunchAgents/shopy-mate_enabler.plist
+etrecheck_adware_shopy_mate_updater:
+  - /Users/%%/Library/LaunchAgents/shopy-mate_updater.plist
+  - /Users/%%/Library/Preferences/shopy-mate_updater.plist
+  - /Library/LaunchAgents/shopy-mate_updater.plist
+etrecheck_adware_shopy_mate_updater:
+  - /Users/%%/Library/LaunchAgents/shopy-mate_updater.sh
+  - /Users/%%/Library/Preferences/shopy-mate_updater.sh
+  - /Library/LaunchAgents/shopy-mate_updater.sh
+etrecheck_adware_yeti:
+  - /Users/%%/Library/LaunchAgents/yeti.notification.plist
+  - /Users/%%/Library/Preferences/yeti.notification.plist
+  - /Library/LaunchAgents/yeti.notification.plist
+
+#etrecheck_adware_com_bittorrent_BitTorrent:
+#  - /Users/%%/Library/LaunchAgents/com.bittorrent.BitTorrent.plist
+#  - /Users/%%/Library/Preferences/com.bittorrent.BitTorrent.plist
+#  - /Library/LaunchAgents/com.bittorrent.BitTorrent.plist
+#etrecheck_adware_com_bittorrent_uTorrent:
+#  - /Users/%%/Library/LaunchAgents/com.bittorrent.uTorrent.plist
+#  - /Users/%%/Library/Preferences/com.bittorrent.uTorrent.plist
+#  - /Library/LaunchAgents/com.bittorrent.uTorrent.plist
